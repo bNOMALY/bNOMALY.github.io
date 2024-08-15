@@ -1,0 +1,5 @@
+function niania()
+{
+	alert("Niania");
+	
+}
