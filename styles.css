@@ -1,7 +1,37 @@
-body
-{
-  font-size: 40pt;
-}
-.kk{font-size:50pt;
-text-align:center;}
 
+
+
+
+.rotate
+{
+  transform-origin: center center;
+  transition:all 3s ease-in-out;
+}
+.rotate:hover
+{
+  transform.rotate(360deg);
+}
+
+
+
+.pres
+{
+  text-decoration:none;
+  color:black
+  
+}
+body
+  {
+  font-size: 40pt;
+  }
+.kk
+  { 
+
+text-align:center;
+font-size:50pt;
+text-decoration:none;
+color:Black;
+  }
+  
+  
+  
