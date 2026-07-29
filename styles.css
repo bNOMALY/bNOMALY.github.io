@@ -1,23 +1,57 @@
-
-
+.aa
+{
+  position:absolute;
+  z-index:2;
+}
+.bb{
+  position:absolute;
+  z-index:1;
+}
+.cc
+{position:absolute;}
+.img-tip {
+  position: relative;
+  display: inline-block;
+}
+/* 默认文字隐藏 */
+.tip-text {
+  position: absolute;
+  /* 调整文字位置，根据需求改 */
+  bottom: -30px;
+  left: 0;
+  white-space: nowrap;
+  color: #000;
+  background: #fff;
+  padding: 4px 8px;
+  /* 初始隐藏 */
+  opacity: 0;
+  pointer-events: none; /* 防止文字挡住鼠标 */
+  transition: none; /* 立刻显示/消失，不要过渡动画 */
+}
+/* 鼠标悬浮容器，文字显示 */
+.img-tip:hover .tip-text {
+  opacity: 1;
+}
 
 
 .rotate
 {
   transform-origin: center center;
-  transition:all 3s ease-in-out;
+  transition:all 1s ease-in-out;
 }
 .rotate:hover
 {
-  transform.rotate(360deg);
+  transform:rotate(350deg);
 }
-
+.small
+{font-size:25pt;
+text-decoration:none;}
 
 
 .pres
 {
   text-decoration:none;
-  color:Black;
+  color:black
   
 }
 body
@@ -34,4 +68,11 @@ color:Black;
   }
   
   
-  
+  .dom
+  {
+	font-size:100pt;
+	font-style:italic;
+	transform:rotate(5deg);
+  }
+  .big
+  {font-size:50pt;}
